@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+}
+.coockie {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  opacity: 1;
+  align-items: center;
+  transition: 0.5s;
+}
+.btn {
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+.btn-success {
+  background-color: #1e2337;
+}
+.btn-deny {
+  background-color: #ce2c0f;
+}
